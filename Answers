@@ -1,0 +1,21 @@
+3. What are different types of relationships, explain with one example each.
+Ans:- (i) Inheritance:  Inheritance is a relationship between classes where a derived class inherits properties and methods from a base class. The derived class extends the functionality of the base class by adding new methods or overriding existing ones.(IS-A relationship)
+for example:- Shape is a base class and circle and rectangle classes are derived from it. The Rectangle and circle classes inherit properties and methods from Shape class.
+
+(ii) Aggregation is a relationship between classes where one class contains a reference to one or more objects of another class, but the contained objects can exist independently of the class that contains them. (Has A relationship)
+for example: Product is a class to describe the attributes and method and products. There is a class named as Cart which can have product object in it. Here the class Cart HAS the product datatype of the array which can store objects of product class
+
+(iii) Association is a relationship between classes where one class is related to another class in some way, but there is no ownership of objects involved.(USES-A relationship)
+for example: we have a purchase class which has a method CalculateBillAmount(Cart cart). The cart object will not be available outside the method., once the method execution is completed.
+Where one class object is used within a specified method of another class. This type of relationship is called as Association or Uses-a relationship.
+
+4. What is the difference between association, aggregation and inheritance?
+Ans:- In association one class object is used within a specified method of another class.
+      In aggregation one class contains a reference to one or more objects of another class, but the contained objects can exist independently of the class that contains them.
+      In inheritance a derived class inherits properties and methods from a base class. The derived class extends the functionality of the base class by adding new methods or overriding existing ones.
+
+==============================================================================================================================================================================================
+CI/CD stands for Continuous Integration and Continuous Delivery/Deployment, and it refers to the practice of automating the build, testing, and deployment of software applications. 
+Continuous Integration (CI) is the process of regularly building and testing the codebase to detect issues early and often. CI pipelines in Azure DevOps typically include steps to build the code, run unit tests, and perform static code analysis.
+Continuous Delivery (CD) is the process of automating the deployment of the application to a testing or staging environment. CD pipelines in Azure DevOps typically include steps to deploy the application to a test environment, run integration tests, and perform manual testing. 
+Continuous Deployment (CD) takes the concept of CD one step further by automating the deployment of the application directly to production without human intervention.
